@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../imgs/logo.png';
 
 export default function Header() {
     const [isActive, setIsActive] = useState(false);
@@ -7,7 +8,7 @@ export default function Header() {
         <header>
             <div className="container">
                 <Link to="/" className="title">
-                    <img src="/imgs/logo.png" alt="Elisa Bitmoji"/>
+                    <img src={logo} alt="Elisa Bitmoji"/>
                     <h1>Epsilon</h1>
                 </Link>
                 <nav>

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import data from '../../data/projects.json';
+import logo from '../../imgs/logo.png';
 
 export default function Home() {
     const skills = ['html', 'css', 'sass', 'js', 'react', 'nodejs', 'github', 'mongodb'];
@@ -8,7 +9,7 @@ export default function Home() {
     return (
         <>
             <section className="about-section">
-                <img src="/imgs/logo.png" alt="Elisa Bitmoji"/>
+                <img src={logo} alt="Elisa Bitmoji"/>
                 <div className="context">
                     <h1>👋 Hey, c'est <span className="hover">Elisa</span> !</h1>
                     <div className="description">

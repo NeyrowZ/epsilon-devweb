@@ -9,7 +9,7 @@ export default function Projects() {
     return(
         <section className="project-section">
             <div className="banner">
-                <img src={`/imgs/projects/${project.id}.png`} alt={`${project.name} Project`}/>
+                <img src={`${process.env.PUBLIC_URL}/imgs/projects/${project.id}.png`} alt={`${project.name} Project`}/>
             </div>
             <div className="context">
                 <div className="title">
