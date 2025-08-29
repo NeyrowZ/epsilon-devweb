@@ -1,0 +1,106 @@
+[
+    {
+        "id": "booki",
+        "name": "Booki",
+        "description": "Dans ce projet, j'ai appris à créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. J'ai développé une interface responsive en me basant sur les maquettes Figma pour les versions mobile, tablette et desktop. Grâce aux images et à la note de synthèse fournies, j'ai conçu mes propres composants d'interface pour obtenir un rendu fidèle à la maquette. Cette expérience m'a permis de comprendre en profondeur comment structurer et styliser le code pour répondre aux exigences de design. J'ai également renforcé mes compétences en design responsive, en veillant à ce que la page s'affiche correctement sur tous les types d'appareils et tailles d'écran.",
+        "skills": [
+            "html",
+            "css"
+        ],
+        "repository": "https://github.com/epsilon-devweb/Booki",
+        "demo": "https://epsilon-devweb.github.io/Booki/",
+        "date": "2023-07-13"
+    },
+    {
+        "id": "oh-my-food",
+        "name": "Oh My Food",
+        "description": "Dans ce projet, j'ai développé l'interface mobile-first d'un site web en utilisant Sass. J'ai intégré les maquettes pour les versions mobile et desktop en mettant l'accent sur une conception adaptative et réactive, tout en enrichissant l'expérience utilisateur avec des animations CSS. Mon objectif était de créer un site optimisé pour les appareils mobiles avant de l'adapter aux tablettes et ordinateurs, tout en respectant rigoureusement les maquettes fournies. Grâce à Sass, j'ai structuré et organisé mon code CSS pour une meilleure maintenabilité, ce qui m'a permis de renforcer mes compétences en design responsive et en optimisation front-end.",
+        "skills": [
+            "html",
+            "css",
+            "scss"
+        ],
+        "repository": "https://github.com/epsilon-devweb/OhMyFood",
+        "demo": "https://epsilon-devweb.github.io/OhMyFood/",
+        "date": "2023-08-28"
+    },
+    {
+        "id": "print-it",
+        "name": "Print It",
+        "description": "Dans ce projet, j'ai appris à dynamiser le site web statique d'une imprimerie en y intégrant un carrousel interactif grâce à JavaScript. J'ai mis à jour le code HTML existant et ajouté ce carrousel, ce qui m'a permis de mieux comprendre l'interaction entre JavaScript, HTML et CSS pour créer des éléments web interactifs.",
+        "skills": [
+            "html",
+            "css",
+            "js"
+        ],
+        "repository": "https://github.com/epsilon-devweb/PrintIt",
+        "demo": "https://epsilon-devweb.github.io/PrintIt/",
+        "date": "2023-09-05"
+    },
+    {
+        "id": "sophie-bluel",
+        "name": "Sophie Bluel",
+        "description": "Dans ce projet, j'ai appris à créer une page web dynamique pour une architecte d'intérieur en utilisant JavaScript et une API. J'ai développé la page de présentation des travaux, géré les événements utilisateurs et manipulé le DOM pour rendre l'interface interactive. J'ai également conçu une page de connexion pour l'administrateur ainsi qu'une modale permettant d'uploader des médias. Grâce à ce projet, j'ai pu mettre en pratique mes compétences en JavaScript et découvrir comment communiquer avec une API. Les outils que j'ai utilisés incluent Figma pour le design et GitHub pour le suivi et le partage de mon code.",
+        "skills": [
+            "html",
+            "css",
+            "js"
+        ],
+        "repository": "https://github.com/epsilon-devweb/SophieBluel",
+        "date": "2024-01-11"
+    },
+    {
+        "id": "kasa",
+        "name": "Kasa",
+        "description": "Dans ce projet, j'ai implémenté le front-end d'une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et développé des composants React réutilisables. J'ai également utilisé React Router pour configurer la navigation entre les différentes pages de l'application, ce qui m'a permis de renforcer mes compétences en développement d'interfaces dynamiques et en gestion des routes.",
+        "skills": [
+            "html",
+            "css",
+            "js",
+            "react"
+        ],
+        "repository": "https://github.com/epsilon-devweb/Kasa",
+        "demo": "https://epsilon-devweb.github.io/Kasa/",
+        "date": "2024-10-31"
+    },
+    {
+        "id": "nina-carducci",
+        "name": "Nina Carducci",
+        "description": "Dans ce projet, j'ai optimisé le référencement, la performance et l'accessibilité du site de la photographe Nina Carducci. J'ai commencé par auditer le site pour identifier les problèmes de chargement et de référencement, puis j'ai proposé des solutions concrètes pour améliorer la vitesse, la structure du code et le SEO. J'ai mis en œuvre ces optimisations en modifiant directement le code du site, en utilisant des outils comme Lighthouse et Wave pour mesurer l'impact de mes corrections.Pour finaliser le projet, j'ai produit un rapport comparatif avant/après, incluant des captures d'écran des audits et une analyse détaillée des changements réalisés, ainsi que leur influence sur le référencement et l'accessibilité. Mon objectif était de livrer un site plus performant, mieux référencé et accessible à tous.",
+        "skills": [
+            "html",
+            "css",
+            "js"
+        ],
+        "repository": "https://github.com/epsilon-devweb/NinaCarducci",
+        "date": "2025-03-20"
+    },
+    {
+        "id": "724events",
+        "name": "724Events",
+        "description": "Dans ce projet, j'ai appris à **reprendre et finaliser un projet en cours** dans un contexte professionnel urgent. J'ai dû analyser rapidement un code existant, identifier et corriger des bugs, et comprendre les attentes d'un client sans avoir participé aux étapes initiales du développement. J'ai également renforcé mes compétences en **debugging** et en **gestion de projet**, en complétant un cahier de recette pour garantir la qualité et la fiabilité du site. Cette expérience m'a permis de mieux appréhender l'importance de la **communication avec le client** et de la **documentation technique** pour assurer une transition fluide entre développeurs. Enfin, j'ai consolidé ma capacité à travailler sous pression tout en respectant les délais et les exigences fonctionnelles.",
+        "skills": [
+            "html",
+            "css",
+            "scss",
+            "js"
+        ],
+        "repository": "https://github.com/epsilon-devweb/724Events",
+        "date": "2025-07-28"
+    },
+    {
+        "id": "argent-bank",
+        "name": "ArgentBank",
+        "description": "Dans ce projet, j'ai appris à développer une application bancaire en ligne avec React et Redux. J'ai implémenté un système d'authentification complet, incluant la gestion des erreurs de connexion, la protection des routes et l'affichage conditionnel du profil utilisateur. J'ai également appliqué des bonnes pratiques de Green Code, comme l'optimisation des images et la création de composants réutilisables.Ensuite, j'ai conçu les routes API pour la gestion des transactions en suivant les directives Swagger, en définissant les méthodes HTTP, les paramètres et les réponses attendues. J'ai produit un document YAML clair pour faciliter la collaboration avec l'équipe back-end. Cette expérience m'a permis de renforcer mes compétences en conception d'API, en travail d'équipe et en optimisation de code.",
+        "skills": [
+            "html",
+            "css",
+            "scss",
+            "js",
+            "react",
+            "redux"
+        ],
+        "repository": "https://github.com/epsilon-devweb/ArgentBank",
+        "date": "2025-08-27"
+    }
+]

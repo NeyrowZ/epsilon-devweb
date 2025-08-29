@@ -1,0 +1,35 @@
+$bg-primary: #151515;
+$bg-secondary: #191919;
+$color-primary: #A927F5;
+
+@mixin link-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: $bg-primary;
+    border: 1px solid #2d2d2d;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        border: 1px solid $color-primary;
+        transition: .5s;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin small-desktop {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}

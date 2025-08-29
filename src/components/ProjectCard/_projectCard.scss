@@ -1,0 +1,40 @@
+@use '../../scss/utils' as *;
+
+.project {
+    position: relative;
+    aspect-ratio: 3 / 1;
+    border-radius: 1rem;
+    background: $bg-primary;
+    border: 2px solid #2d2d2d;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(2px) brightness(.5) contrast(1);
+        transform: scale(1);
+        transition: .3s;
+    }
+
+    &:hover img {
+        transform: scale(1.1);
+    }
+
+    h2 {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        z-index: 1;
+    }
+
+    &:hover {
+        border: 2px solid $color-primary;
+        transition: .5s;
+    }
+}

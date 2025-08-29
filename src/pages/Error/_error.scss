@@ -1,0 +1,8 @@
+@use '../../scss/utils' as *;
+
+.error-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1500%;
+}

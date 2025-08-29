@@ -1,0 +1,14 @@
+@use '../../scss/utils' as *;
+
+footer {
+    background: #151515;
+    border-top: 1px solid #2d2d2d;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        padding: 2rem;
+    }
+}

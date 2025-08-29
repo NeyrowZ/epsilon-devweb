@@ -1,0 +1,12 @@
+@use './utils' as *;
+
+@use './main' as *;
+
+@use '../pages/Home/home' as *;
+@use '../pages/Projects/projects' as *;
+@use '../pages/ProjectDetails/projectDetails' as *;
+@use '../pages/Error/error' as *;
+
+@use '../components/Header/header' as *;
+@use '../components/Footer/footer' as *;
+@use '../components/ProjectCard/projectCard' as *;

@@ -1,0 +1,95 @@
+@use './utils' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+body {
+    color: #fff;
+    background: $bg-secondary;
+    font-family: 'Consolas';
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-block: 6rem;
+    min-height: calc(100vh - 200px);
+
+    section {
+        gap: 6rem;
+        padding-inline: 6rem;
+
+        @include tablet {
+            gap: 3rem;
+            padding-inline: 3rem;
+        }
+
+        @include mobile {
+            gap: 1.5rem;
+            padding-inline: 1.5rem;
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 2rem;
+
+    @include tablet {
+        font-size: 1.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.8rem;
+
+    @include tablet {
+        font-size: 1.3rem;
+    }
+}
+
+h3 {
+    font-size: 1.6rem;
+
+    @include tablet {
+        font-size: 1.1rem;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        transition: .5s;
+        color: $color-primary;
+    }
+}
+
+span.hover {
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        transition: .5s;
+        color: $color-primary;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
