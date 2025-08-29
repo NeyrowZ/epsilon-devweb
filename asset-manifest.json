@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.c732e7d0.css",
-    "main.js": "./static/js/main.97482827.js",
-    "index.html": "./index.html",
-    "main.c732e7d0.css.map": "./static/css/main.c732e7d0.css.map",
-    "main.97482827.js.map": "./static/js/main.97482827.js.map"
+    "main.css": "/epsilon-devweb/static/css/main.c732e7d0.css",
+    "main.js": "/epsilon-devweb/static/js/main.ef4c3bb5.js",
+    "index.html": "/epsilon-devweb/index.html",
+    "main.c732e7d0.css.map": "/epsilon-devweb/static/css/main.c732e7d0.css.map",
+    "main.ef4c3bb5.js.map": "/epsilon-devweb/static/js/main.ef4c3bb5.js.map"
   },
   "entrypoints": [
     "static/css/main.c732e7d0.css",
-    "static/js/main.97482827.js"
+    "static/js/main.ef4c3bb5.js"
   ]
 }
